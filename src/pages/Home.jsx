@@ -9,7 +9,7 @@ import PopularDishes from '../components/PopularDishes';
 
 const Home = () => {
   return (
-   <section className="bg-[#1f1f1f] min-h-screen overflow-y-auto flex flex-col lg:flex-row gap-3">
+   <section className="bg-[#1f1f1f] min-h-screen overflow-y-auto flex flex-col lg:flex-row gap-3 pb-28">
     <div className='flex-[3]'>
         <Greetings />
         <div className='flex item-center gap-3 w-full px-8 mt-8'>
